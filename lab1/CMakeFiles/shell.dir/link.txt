@@ -1,0 +1,1 @@
+/bin/cc    CMakeFiles/shell.dir/main.c.o CMakeFiles/shell.dir/ast.c.o CMakeFiles/shell.dir/y.tab.c.o CMakeFiles/shell.dir/lex.yy.c.o  -o shell 
