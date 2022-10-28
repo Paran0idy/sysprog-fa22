@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/partC.dir/main.c.o  -o partC 

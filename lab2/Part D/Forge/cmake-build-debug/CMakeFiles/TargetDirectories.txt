@@ -1,0 +1,3 @@
+/home/twoballs/CLionProjects/Forge/cmake-build-debug/CMakeFiles/Forge.dir
+/home/twoballs/CLionProjects/Forge/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/twoballs/CLionProjects/Forge/cmake-build-debug/CMakeFiles/rebuild_cache.dir

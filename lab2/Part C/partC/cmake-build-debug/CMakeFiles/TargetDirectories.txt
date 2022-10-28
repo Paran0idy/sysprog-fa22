@@ -1,0 +1,3 @@
+/home/twoballs/courses/sysprog-fa22/partC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/twoballs/courses/sysprog-fa22/partC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/twoballs/courses/sysprog-fa22/partC/cmake-build-debug/CMakeFiles/partC_analysis.dir

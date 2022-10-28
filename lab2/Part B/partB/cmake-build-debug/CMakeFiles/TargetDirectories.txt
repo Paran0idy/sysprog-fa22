@@ -1,0 +1,3 @@
+/home/twoballs/courses/sysprog-fa22/lab2/partB/cmake-build-debug/CMakeFiles/miniWireShark.dir
+/home/twoballs/courses/sysprog-fa22/lab2/partB/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/twoballs/courses/sysprog-fa22/lab2/partB/cmake-build-debug/CMakeFiles/rebuild_cache.dir

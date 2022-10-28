@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/partC_analysis.dir/filter.c.o CMakeFiles/partC_analysis.dir/main.c.o CMakeFiles/partC_analysis.dir/packetProcess.c.o  -o ../partC_analysis 
