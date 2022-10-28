@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ssedb.dir/ast.c.o CMakeFiles/ssedb.dir/cmdFuncs.c.o CMakeFiles/ssedb.dir/main.c.o  -o ../ssedb  deps/zydis/libZydis.a -lbfd -liberty -ldl -lz deps/zydis/zycore/libZycore.a -pthread 

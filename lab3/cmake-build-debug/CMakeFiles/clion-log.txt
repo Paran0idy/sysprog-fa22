@@ -1,0 +1,4 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/zsh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' /home/twoballs/courses/sysprog-fa22/lab3"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug

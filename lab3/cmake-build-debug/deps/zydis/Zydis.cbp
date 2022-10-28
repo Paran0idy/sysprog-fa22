@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Zydis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\zydis\;CMake Files\deps\zydis\dependencies\;CMake Files\deps\zydis\dependencies\zycore\;CMake Files\deps\zydis\dependencies\zycore\cmake\;CMake Files\deps\zydis\cmake\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZydisDoc">
+				<Option working_dir="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 ZydisDoc"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zydis">
+				<Option output="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/libZydis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZYDIS_STATIC_BUILD"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DZYCORE_STATIC_BUILD"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 Zydis"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zydis/fast">
+				<Option output="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/libZydis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZYDIS_STATIC_BUILD"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DZYCORE_STATIC_BUILD"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 Zydis/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZycoreDoc">
+				<Option working_dir="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 ZycoreDoc"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zycore">
+				<Option output="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/libZycore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZYCORE_STATIC_BUILD"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 Zycore"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zycore/fast">
+				<Option output="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/libZycore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZYCORE_STATIC_BUILD"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore"/>
+					<Add directory="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 Zycore/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/deps/zydis/zycore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/README.md">
+			<Option target="ZydisDoc"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/API/Memory.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/API/Process.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/API/Synchronization.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/API/Terminal.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/API/Thread.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Allocator.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/ArgParse.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Atomic.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Bitset.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Comparison.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Defines.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Format.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Internal/AtomicGNU.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Internal/AtomicMSVC.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/LibC.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/List.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Object.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Status.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/String.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Types.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Vector.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/include/Zycore/Zycore.h">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/API/Memory.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/API/Process.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/API/Synchronization.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/API/Terminal.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/API/Thread.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/Allocator.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/ArgParse.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/Bitset.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/Format.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/List.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/String.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/Vector.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/src/Zycore.c">
+			<Option target="Zycore"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/files.dox">
+			<Option target="ZydisDoc"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Decoder.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/DecoderTypes.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Defines.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Disassembler.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Encoder.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Formatter.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/FormatterBuffer.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Internal/DecoderData.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Internal/EncoderData.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Internal/FormatterATT.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Internal/FormatterBase.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Internal/FormatterIntel.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Internal/SharedData.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Internal/String.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/MetaInfo.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Mnemonic.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Register.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Segment.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/SharedTypes.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/ShortString.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Status.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Utils.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/include/Zydis/Zydis.h">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Decoder.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/DecoderData.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Disassembler.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Encoder.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/EncoderData.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Formatter.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/FormatterATT.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/FormatterBase.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/FormatterBuffer.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/FormatterIntel.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/MetaInfo.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Mnemonic.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Register.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Segment.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/SharedData.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/String.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Utils.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/src/Zydis.c">
+			<Option target="Zydis"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\zydis\"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\zydis\dependencies\zycore\"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/cmake/zyan-functions.cmake">
+			<Option virtualFolder="CMake Files\deps\zydis\dependencies\zycore\cmake\"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/dependencies/zycore/cmake/zycore-config.cmake.in">
+			<Option virtualFolder="CMake Files\deps\zydis\dependencies\zycore\cmake\"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/deps/zydis/cmake/zydis-config.cmake.in">
+			<Option virtualFolder="CMake Files\deps\zydis\cmake\"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/CMakeDoxyfile.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/twoballs/courses/sysprog-fa22/lab3/cmake-build-debug/CMakeDoxygenDefaults.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
